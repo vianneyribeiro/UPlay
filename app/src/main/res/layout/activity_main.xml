@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical"
+    tools:context="com.example.vianneyribeiro.uplay.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/signed"
+            android:textColor="@color/divider"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/PlayerBarStyle"
+                android:text="@string/now_playing" />
+
+            <TextView
+                style="@style/FindBarStyle"
+                android:text="@string/find" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/accent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_Payment"
+                style="@style/ItemStyle"
+                android:text="@string/account" />
+
+            <Button
+                android:id="@+id/btn_Library"
+                style="@style/ItemStyle"
+                android:text="@string/my_library" />
+
+            <Button
+                android:id="@+id/btn_Playlist"
+                style="@style/ItemStyle"
+                android:text="@string/playlists" />
+
+            <Button
+                android:id="@+id/btn_InternetRadio"
+                style="@style/ItemStyle"
+                android:text="@string/internet_radio" />
+
+            <Button
+                android:id="@+id/btn_Podcast"
+                style="@style/ItemStyle"
+                android:text="@string/podcasts" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

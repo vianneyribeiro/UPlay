@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UPlay</string>
+    <string name="my_library">My Library</string>
+    <string name="uplay_store">Uplay Store</string>
+    <string name="playlists">Playlists</string>
+    <string name="internet_radio">Internet Radio</string>
+    <string name="podcasts">Podcasts</string>
+    <string name="list_internet_radios">List Internet Radios</string>
+    <string name="list_device_musics">List Device Musics</string>
+    <string name="list_my_playlists">List My Playlists</string>
+    <string name="list_podcasts">List Podcasts</string>
+    <string name="library">Library</string>
+    <string name="payment">Payment</string>
+    <string name="apiExplain">API to make the payment   https://www.mercadopago.com.br/developers/pt/api-docs/</string>
+    <string name="now_playing">Now Playing\nMusic: Banana Pankakes\nArtist: Jack Johnson</string>
+    <string name="find">Find</string>
+    <string name="account">My Account</string>
+    <string name="SelectSubsPlan">Select Subscription Plan:</string>
+    <string name="montlyprice">Montly: R$ 2,00</string>
+    <string name="anualPlan">Annual: R$ 10,00</string>
+    <string name="descFreePlan">Free: R$ 0,00   *Limited to 20 Minutes/Month</string>
+    <string name="signed">Vianney Ribeiro using Free Plan</string>
+    <string name="signout">SignOut</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="resumePaymentOp"><![CDATA[Para pagamento será utilizada a API do mercado pago:  1. Incluir a biblioteca incluido a dependencia:   compile (\'com.mercadopago:sdk:2.3.6@aar\') { transitive = true }  2. Obter dados para realizar pagamento: Para receber pagamentos dos usuários,  é necessário que eles indiquem qual meio de pagamento vão utilizar.  Será utilizado o componente visual que vem no SDK.  2. Solicitar um meio de pagamento.   Solicitar um meio de pagamento utilizando CardVaultActivity do SDK  3. Enviar a solicitação de pagamento e receber o retorno da operação.]]></string>
+
+</resources>
